@@ -1,0 +1,27 @@
+﻿{
+  "success": true,
+  "data": {
+    "domain": "cloudflare.com",
+    "count": 0,
+    "certificates": []
+  },
+  "meta": {
+    "request_id": "01KT09ZBF5PS5Q9RYH7JVBKGG2",
+    "duration_ms": 553.7,
+    "cache": {
+      "hit": false
+    },
+    "auth": {
+      "authenticated": true,
+      "tier": "internal",
+      "key_label": "Connor Merk ΓÇö Alloy API",
+      "key_prefix": "l49peiw1"
+    }
+  },
+  "links": {
+    "self": "/api/certificate-transparency/cloudflare.com?pretty=true",
+    "docs": "https://api.connormerk.dev/docs/reference"
+  },
+  "timestamp": "2026-06-01T00:40:09.487Z",
+  "request_id": "01KT09ZBF5PS5Q9RYH7JVBKGG2"
+}

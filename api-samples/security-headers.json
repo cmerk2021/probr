@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "error": {
+    "code": "not_found",
+    "message": "Route GET:/api/security/headers/https%3A%2F%2Fcloudflare.com?pretty=true not found"
+  },
+  "request_id": "01KT0A257FVWQ4TX47HV64WDVY",
+  "timestamp": "2026-06-01T00:41:40.860Z"
+}

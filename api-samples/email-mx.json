@@ -1,0 +1,40 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "domain":  "cloudflare.com",
+                 "mx":  [
+                            {
+                                "exchange":  "mxa-canary.global.inbound.cf-emailsecurity.net",
+                                "priority":  5
+                            },
+                            {
+                                "exchange":  "mxb-canary.global.inbound.cf-emailsecurity.net",
+                                "priority":  5
+                            },
+                            {
+                                "exchange":  "mxa.global.inbound.cf-emailsecurity.net",
+                                "priority":  10
+                            },
+                            {
+                                "exchange":  "mxb.global.inbound.cf-emailsecurity.net",
+                                "priority":  10
+                            }
+                        ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09XG4K48W6NSYSEH715170",
+                 "duration_ms":  33.4,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/email/mx/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:08.213Z",
+    "request_id":  "01KT09XG4K48W6NSYSEH715170"
+}

@@ -1,0 +1,39 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "ip":  "8.8.8.8",
+                 "family":  4,
+                 "asn":  15169,
+                 "prefix":  "8.8.8.0/24",
+                 "reverse_dns":  [
+                                     "dns.google"
+                                 ],
+                 "geo":  {
+                             "country":  "US",
+                             "city":  "",
+                             "resources":  [
+                                               "8.8.8.0/23"
+                                           ],
+                             "latitude":  37.751,
+                             "longitude":  -97.822,
+                             "covered_percentage":  100
+                         },
+                 "bogon":  false
+             },
+    "meta":  {
+                 "request_id":  "01KT09WAN1ZDH50SDNQHY9T61J",
+                 "duration_ms":  33,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/ip/8.8.8.8?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:38:29.826Z",
+    "request_id":  "01KT09WAN1ZDH50SDNQHY9T61J"
+}

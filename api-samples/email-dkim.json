@@ -1,0 +1,29 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "domain":  "cloudflare.com",
+                 "selectors_checked":  24,
+                 "dkim":  [
+                              {
+                                  "selector":  "mandrill",
+                                  "record":  "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB"
+                              }
+                          ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09XGWC3PVFWPV1V7ZJTHKY",
+                 "duration_ms":  93.5,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/email/dkim/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:09.034Z",
+    "request_id":  "01KT09XGWC3PVFWPV1V7ZJTHKY"
+}

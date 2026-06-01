@@ -1,0 +1,497 @@
+﻿{
+    "success":  true,
+    "data":  [
+                 {
+                     "name":  "network",
+                     "count":  11,
+                     "endpoints":  [
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/network/intelligence/:ip",
+                                           "summary":  "Comprehensive IP intelligence"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/ip/:ip",
+                                           "summary":  "IP address lookup"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/asn/:asn",
+                                           "summary":  "ASN information"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/bgp/prefix/:prefix",
+                                           "summary":  "BGP prefix details"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/bgp/asn/:asn",
+                                           "summary":  "BGP ASN details"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/rpki/:prefix",
+                                           "summary":  "RPKI validation"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/cidr/analyze/:cidr",
+                                           "summary":  "Analyze CIDR block"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/cidr/expand/:cidr",
+                                           "summary":  "Expand CIDR block"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/cidr/summarize",
+                                           "summary":  "Summarize CIDRs"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/reverse-dns/:ip",
+                                           "summary":  "Reverse DNS"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/whois/ip/:ip",
+                                           "summary":  "IP WHOIS / RDAP"
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "dns",
+                     "count":  11,
+                     "endpoints":  [
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/dns/lookup/:domain",
+                                           "summary":  "DNS multi-record lookup"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/dns/a/:domain",
+                                           "summary":  "A records"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/dns/aaaa/:domain",
+                                           "summary":  "AAAA records"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/dns/mx/:domain",
+                                           "summary":  "MX records"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/dns/txt/:domain",
+                                           "summary":  "TXT records"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/dns/ns/:domain",
+                                           "summary":  "NS records"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/dns/cname/:domain",
+                                           "summary":  "CNAME records"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/dns/dnssec/:domain",
+                                           "summary":  "DNSSEC inspection"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/dns/spf/:domain",
+                                           "summary":  "SPF inspection"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/dns/dmarc/:domain",
+                                           "summary":  "DMARC inspection"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/dns/propagation/:domain",
+                                           "summary":  "DNS propagation"
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "domain",
+                     "count":  5,
+                     "endpoints":  [
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/domain/intelligence/:domain",
+                                           "summary":  "Domain intelligence"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/domain/whois/:domain",
+                                           "summary":  "Domain WHOIS / RDAP"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/domain/registrar/:domain",
+                                           "summary":  "Domain registrar"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/domain/nameservers/:domain",
+                                           "summary":  "Domain name servers"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/domain/age/:domain",
+                                           "summary":  "Domain age"
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "email",
+                     "count":  6,
+                     "endpoints":  [
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/email/health/:domain",
+                                           "summary":  "Email deliverability health"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/email/mx/:domain",
+                                           "summary":  "Email MX records"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/email/spf/:domain",
+                                           "summary":  "SPF check"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/email/dmarc/:domain",
+                                           "summary":  "DMARC check"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/email/dkim/:domain",
+                                           "summary":  "DKIM lookup"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/email/diagnose/:domain",
+                                           "summary":  "Full email diagnostic"
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "tls",
+                     "count":  5,
+                     "endpoints":  [
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/tls/:host",
+                                           "summary":  "TLS overview"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/tls/certificate/:host",
+                                           "summary":  "TLS certificate"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/tls/ciphers/:host",
+                                           "summary":  "TLS cipher suites"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/tls/analyze/:host",
+                                           "summary":  "TLS analysis"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/certificate-transparency/:domain",
+                                           "summary":  "CT log search"
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "web",
+                     "count":  7,
+                     "endpoints":  [
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/url/meta",
+                                           "summary":  "URL metadata"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/site/audit/:domain",
+                                           "summary":  "Site audit"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/site/headers/:domain",
+                                           "summary":  "HTTP response headers"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/site/robots/:domain",
+                                           "summary":  "robots.txt inspection"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/site/sitemap/:domain",
+                                           "summary":  "sitemap.xml inspection"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/site/performance/:domain",
+                                           "summary":  "Server-side performance"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/site/technology/:domain",
+                                           "summary":  "Technology fingerprint"
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "security",
+                     "count":  5,
+                     "endpoints":  [
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/security/headers",
+                                           "summary":  "Security headers audit"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/security/hash/:hash",
+                                           "summary":  "Hash classifier"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/security/domain/:domain",
+                                           "summary":  "Domain risk indicators"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/security/url",
+                                           "summary":  "URL risk indicators"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/security/password",
+                                           "summary":  "Password strength"
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "utilities",
+                     "count":  22,
+                     "endpoints":  [
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/uuid",
+                                           "summary":  "Generate UUID"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/uuid/bulk",
+                                           "summary":  "Bulk UUIDs"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/ulid",
+                                           "summary":  "Generate ULID"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/base64/encode",
+                                           "summary":  "Base64 encode"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/base64/decode",
+                                           "summary":  "Base64 decode"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/hash/md5",
+                                           "summary":  "MD5 hash"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/hash/sha1",
+                                           "summary":  "SHA1 hash"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/hash/sha256",
+                                           "summary":  "SHA256 hash"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/hash/sha512",
+                                           "summary":  "SHA512 hash"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/jwt/decode",
+                                           "summary":  "Decode JWT"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/json/format",
+                                           "summary":  "Format JSON"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/json/validate",
+                                           "summary":  "Validate JSON"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/yaml/to-json",
+                                           "summary":  "YAML to JSON"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/json/to-yaml",
+                                           "summary":  "JSON to YAML"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/csv/to-json",
+                                           "summary":  "CSV to JSON"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/json/to-csv",
+                                           "summary":  "JSON to CSV"
+                                       },
+                                       {
+                                           "method":  "POST",
+                                           "path":  "/api/regex/test",
+                                           "summary":  "Test regex"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/cron/parse",
+                                           "summary":  "Parse cron expression"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/ua/parse",
+                                           "summary":  "Parse user agent"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/slug",
+                                           "summary":  "Slugify"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/password/generate",
+                                           "summary":  "Generate password"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/qr/generate",
+                                           "summary":  "Generate QR code"
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "data",
+                     "count":  5,
+                     "endpoints":  [
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/timezone",
+                                           "summary":  "Timezone info"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/country/:country",
+                                           "summary":  "Country info"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/currency/rates",
+                                           "summary":  "Currency reference"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/language/:code",
+                                           "summary":  "Language info"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/postal/:postal",
+                                           "summary":  "Postal code info"
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "flagship",
+                     "count":  1,
+                     "endpoints":  [
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/internet/diagnose",
+                                           "summary":  "Internet diagnostic (flagship)"
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "meta",
+                     "count":  4,
+                     "endpoints":  [
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/meta/endpoints",
+                                           "summary":  "List endpoints"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/meta/openapi",
+                                           "summary":  "OpenAPI document"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/meta/categories",
+                                           "summary":  "List categories"
+                                       },
+                                       {
+                                           "method":  "GET",
+                                           "path":  "/api/meta/status",
+                                           "summary":  "Service status"
+                                       }
+                                   ]
+                 }
+             ],
+    "meta":  {
+                 "request_id":  "01KT09Y8HZSRPBNTD35PP8TQ4B",
+                 "duration_ms":  4.6,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/meta/categories?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:33.188Z",
+    "request_id":  "01KT09Y8HZSRPBNTD35PP8TQ4B"
+}

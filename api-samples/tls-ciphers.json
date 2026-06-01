@@ -1,0 +1,39 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "host":  "cloudflare.com",
+                 "port":  443,
+                 "supported":  [
+                                   "ECDHE-ECDSA-AES128-GCM-SHA256",
+                                   "ECDHE-ECDSA-AES256-GCM-SHA384",
+                                   "ECDHE-ECDSA-CHACHA20-POLY1305",
+                                   "ECDHE-RSA-AES256-GCM-SHA384",
+                                   "ECDHE-RSA-CHACHA20-POLY1305",
+                                   "ECDHE-RSA-AES128-GCM-SHA256",
+                                   "AES128-GCM-SHA256",
+                                   "AES128-SHA",
+                                   "AES256-SHA",
+                                   "AES256-GCM-SHA384"
+                               ],
+                 "unsupported":  [
+                                     "DHE-RSA-AES128-GCM-SHA256",
+                                     "DHE-RSA-AES256-GCM-SHA384"
+                                 ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09XJKYDV57D4T510DZW30K",
+                 "duration_ms":  94.1,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/tls/ciphers/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:10.812Z",
+    "request_id":  "01KT09XJKYDV57D4T510DZW30K"
+}

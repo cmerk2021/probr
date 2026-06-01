@@ -1,0 +1,259 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "base":  null,
+                 "note":  "Static reference dataset. Live FX rates require an upstream provider.",
+                 "currencies":  [
+                                    {
+                                        "code":  "USD",
+                                        "name":  "US Dollar",
+                                        "symbol":  "$",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "EUR",
+                                        "name":  "Euro",
+                                        "symbol":  "€",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "GBP",
+                                        "name":  "Pound Sterling",
+                                        "symbol":  "£",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "JPY",
+                                        "name":  "Japanese Yen",
+                                        "symbol":  "¥",
+                                        "minor_unit":  0
+                                    },
+                                    {
+                                        "code":  "CAD",
+                                        "name":  "Canadian Dollar",
+                                        "symbol":  "$",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "AUD",
+                                        "name":  "Australian Dollar",
+                                        "symbol":  "$",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "NZD",
+                                        "name":  "New Zealand Dollar",
+                                        "symbol":  "$",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "CHF",
+                                        "name":  "Swiss Franc",
+                                        "symbol":  "CHF",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "CNY",
+                                        "name":  "Chinese Yuan",
+                                        "symbol":  "¥",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "INR",
+                                        "name":  "Indian Rupee",
+                                        "symbol":  "₹",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "KRW",
+                                        "name":  "South Korean Won",
+                                        "symbol":  "₩",
+                                        "minor_unit":  0
+                                    },
+                                    {
+                                        "code":  "BRL",
+                                        "name":  "Brazilian Real",
+                                        "symbol":  "R$",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "MXN",
+                                        "name":  "Mexican Peso",
+                                        "symbol":  "$",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "SEK",
+                                        "name":  "Swedish Krona",
+                                        "symbol":  "kr",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "NOK",
+                                        "name":  "Norwegian Krone",
+                                        "symbol":  "kr",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "DKK",
+                                        "name":  "Danish Krone",
+                                        "symbol":  "kr",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "PLN",
+                                        "name":  "Polish Zloty",
+                                        "symbol":  "zł",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "CZK",
+                                        "name":  "Czech Koruna",
+                                        "symbol":  "Kč",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "HUF",
+                                        "name":  "Hungarian Forint",
+                                        "symbol":  "Ft",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "RON",
+                                        "name":  "Romanian Leu",
+                                        "symbol":  "lei",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "BGN",
+                                        "name":  "Bulgarian Lev",
+                                        "symbol":  "лв",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "TRY",
+                                        "name":  "Turkish Lira",
+                                        "symbol":  "₺",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "ILS",
+                                        "name":  "Israeli Shekel",
+                                        "symbol":  "₪",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "AED",
+                                        "name":  "UAE Dirham",
+                                        "symbol":  "د.إ",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "SAR",
+                                        "name":  "Saudi Riyal",
+                                        "symbol":  "﷼",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "SGD",
+                                        "name":  "Singapore Dollar",
+                                        "symbol":  "$",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "MYR",
+                                        "name":  "Malaysian Ringgit",
+                                        "symbol":  "RM",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "IDR",
+                                        "name":  "Indonesian Rupiah",
+                                        "symbol":  "Rp",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "THB",
+                                        "name":  "Thai Baht",
+                                        "symbol":  "฿",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "PHP",
+                                        "name":  "Philippine Peso",
+                                        "symbol":  "₱",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "VND",
+                                        "name":  "Vietnamese Dong",
+                                        "symbol":  "₫",
+                                        "minor_unit":  0
+                                    },
+                                    {
+                                        "code":  "ZAR",
+                                        "name":  "South African Rand",
+                                        "symbol":  "R",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "NGN",
+                                        "name":  "Nigerian Naira",
+                                        "symbol":  "₦",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "EGP",
+                                        "name":  "Egyptian Pound",
+                                        "symbol":  "£",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "UAH",
+                                        "name":  "Ukrainian Hryvnia",
+                                        "symbol":  "₴",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "RUB",
+                                        "name":  "Russian Ruble",
+                                        "symbol":  "₽",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "HKD",
+                                        "name":  "Hong Kong Dollar",
+                                        "symbol":  "$",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "TWD",
+                                        "name":  "New Taiwan Dollar",
+                                        "symbol":  "$",
+                                        "minor_unit":  2
+                                    },
+                                    {
+                                        "code":  "PKR",
+                                        "name":  "Pakistani Rupee",
+                                        "symbol":  "₨",
+                                        "minor_unit":  2
+                                    }
+                                ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09Y7BWADWN9TDADF8CVCA4",
+                 "duration_ms":  11.8,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/currency/rates?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:31.977Z",
+    "request_id":  "01KT09Y7BWADWN9TDADF8CVCA4"
+}

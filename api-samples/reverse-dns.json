@@ -1,0 +1,25 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "ip":  "8.8.8.8",
+                 "ptr":  [
+                             "dns.google"
+                         ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09WEA91FQVFX7WA0WYJS6G",
+                 "duration_ms":  29.5,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/reverse-dns/8.8.8.8?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:38:33.575Z",
+    "request_id":  "01KT09WEA91FQVFX7WA0WYJS6G"
+}

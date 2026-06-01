@@ -1,0 +1,44 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "domain":  "cloudflare.com",
+                 "present":  true,
+                 "record_count":  1,
+                 "records":  [
+                                 {
+                                     "raw":  "v=spf1 ip4:199.15.212.0/22 ip4:173.245.48.0/20 include:_spf.google.com include:spf1.mcsv.net include:spf.mandrillapp.com include:mail.zendesk.com include:stspg-customer.com include:_spf.salesforce.com -all",
+                                     "mechanisms":  [
+                                                        "ip4:199.15.212.0/22",
+                                                        "ip4:173.245.48.0/20",
+                                                        "include:_spf.google.com",
+                                                        "include:spf1.mcsv.net",
+                                                        "include:spf.mandrillapp.com",
+                                                        "include:mail.zendesk.com",
+                                                        "include:stspg-customer.com",
+                                                        "include:_spf.salesforce.com",
+                                                        "-all"
+                                                    ],
+                                     "all_qualifier":  "fail"
+                                 }
+                             ],
+                 "issues":  [
+
+                            ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09WGSA0QECQEPA9KRX9VR1",
+                 "duration_ms":  47.6,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/dns/spf/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:38:36.122Z",
+    "request_id":  "01KT09WGSA0QECQEPA9KRX9VR1"
+}

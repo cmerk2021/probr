@@ -1,0 +1,118 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "host":  "cloudflare.com",
+                 "port":  443,
+                 "certificate":  {
+                                     "subject":  {
+                                                     "CN":  "cloudflare.com"
+                                                 },
+                                     "issuer":  {
+                                                    "C":  "US",
+                                                    "O":  "Google Trust Services",
+                                                    "CN":  "WE1"
+                                                },
+                                     "subject_alt_names":  [
+                                                               "cloudflare.com",
+                                                               "ns.cloudflare.com",
+                                                               "*.ns.cloudflare.com",
+                                                               "*.secondary.cloudflare.com",
+                                                               "secondary.cloudflare.com"
+                                                           ],
+                                     "serial":  "A49C58EF69B060221328ECA90D788485",
+                                     "fingerprint_sha256":  "DD:59:95:64:1D:BD:59:21:29:DB:32:6D:F0:82:E4:00:D8:62:7A:DD:8B:8C:7D:B4:81:93:13:93:91:ED:F6:1C",
+                                     "valid_from":  "May 10 21:14:06 2026 GMT",
+                                     "valid_to":  "Aug  8 22:14:02 2026 GMT",
+                                     "days_remaining":  68,
+                                     "key_type":  "prime256v1",
+                                     "key_bits":  256
+                                 },
+                 "chain":  [
+                               {
+                                   "subject":  {
+                                                   "CN":  "cloudflare.com"
+                                               },
+                                   "issuer":  {
+                                                  "C":  "US",
+                                                  "O":  "Google Trust Services",
+                                                  "CN":  "WE1"
+                                              },
+                                   "subject_alt_names":  [
+                                                             "cloudflare.com",
+                                                             "ns.cloudflare.com",
+                                                             "*.ns.cloudflare.com",
+                                                             "*.secondary.cloudflare.com",
+                                                             "secondary.cloudflare.com"
+                                                         ],
+                                   "serial":  "A49C58EF69B060221328ECA90D788485",
+                                   "fingerprint_sha256":  "DD:59:95:64:1D:BD:59:21:29:DB:32:6D:F0:82:E4:00:D8:62:7A:DD:8B:8C:7D:B4:81:93:13:93:91:ED:F6:1C",
+                                   "valid_from":  "May 10 21:14:06 2026 GMT",
+                                   "valid_to":  "Aug  8 22:14:02 2026 GMT",
+                                   "days_remaining":  68,
+                                   "key_type":  "prime256v1",
+                                   "key_bits":  256
+                               },
+                               {
+                                   "subject":  {
+                                                   "C":  "US",
+                                                   "O":  "Google Trust Services",
+                                                   "CN":  "WE1"
+                                               },
+                                   "issuer":  {
+                                                  "C":  "US",
+                                                  "O":  "Google Trust Services LLC",
+                                                  "CN":  "GTS Root R4"
+                                              },
+                                   "subject_alt_names":  [
+
+                                                         ],
+                                   "serial":  "7FF31977972C224A76155D13B6D685E3",
+                                   "fingerprint_sha256":  "1D:FC:16:05:FB:AD:35:8D:8B:C8:44:F7:6D:15:20:3F:AC:9C:A5:C1:A7:9F:D4:85:7F:FA:F2:86:4F:BE:BF:96",
+                                   "valid_from":  "Dec 13 09:00:00 2023 GMT",
+                                   "valid_to":  "Feb 20 14:00:00 2029 GMT",
+                                   "days_remaining":  995,
+                                   "key_type":  "prime256v1",
+                                   "key_bits":  256
+                               },
+                               {
+                                   "subject":  {
+                                                   "C":  "US",
+                                                   "O":  "Google Trust Services LLC",
+                                                   "CN":  "GTS Root R4"
+                                               },
+                                   "issuer":  {
+                                                  "C":  "BE",
+                                                  "O":  "GlobalSign nv-sa",
+                                                  "OU":  "Root CA",
+                                                  "CN":  "GlobalSign Root CA"
+                                              },
+                                   "subject_alt_names":  [
+
+                                                         ],
+                                   "serial":  "7FE530BF331343BEDD821610493D8A1B",
+                                   "fingerprint_sha256":  "76:B2:7B:80:A5:80:27:DC:3C:F1:DA:68:DA:C1:70:10:ED:93:99:7D:0B:60:3E:2F:AD:BE:85:01:24:93:B5:A7",
+                                   "valid_from":  "Nov 15 03:43:21 2023 GMT",
+                                   "valid_to":  "Jan 28 00:00:42 2028 GMT",
+                                   "days_remaining":  605,
+                                   "key_type":  "secp384r1",
+                                   "key_bits":  384
+                               }
+                           ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09XJ638RSM4G8MW0ZWG3NX",
+                 "duration_ms":  82,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/tls/certificate/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:10.357Z",
+    "request_id":  "01KT09XJ638RSM4G8MW0ZWG3NX"
+}

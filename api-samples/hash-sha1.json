@@ -1,0 +1,24 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "algorithm":  "sha1",
+                 "hash":  "31c15ae7b800dc4c710ff321bf3242b2132188d2",
+                 "input_length":  13
+             },
+    "meta":  {
+                 "request_id":  "01KT09YAHRMEXWBHFRVEAA9EQR",
+                 "duration_ms":  12,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/hash/sha1?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:35.236Z",
+    "request_id":  "01KT09YAHRMEXWBHFRVEAA9EQR"
+}

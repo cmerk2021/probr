@@ -1,0 +1,50 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "url":  "https://cloudflare.com/",
+                 "status":  200,
+                 "headers":  {
+                                 "alt-svc":  "h3=\":443\"; ma=86400",
+                                 "cache-control":  "public, max-age=10, s-maxage=10",
+                                 "cf-placement":  "local-OMA",
+                                 "cf-ray":  "a04a29426a7a6e33-OMA",
+                                 "connection":  "close",
+                                 "content-encoding":  "br",
+                                 "content-security-policy":  "default-src \u0027self\u0027; script-src \u0027self\u0027 \u0027unsafe-inline\u0027 \u0027unsafe-eval\u0027 https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://adservice.google.com https://cdn.bizible.com https://js.adsrvr.org https://*.marketo.net https://platform.twitter.com https://static.ads-twitter.com https://scripts.demandbase.com https://tag.demandbase.com https://*.6sc.co https://*.qualified.com https://snap.licdn.com https://bat.bing.com; style-src \u0027self\u0027 \u0027unsafe-inline\u0027; img-src \u0027self\u0027 data: https:; font-src \u0027self\u0027 data:; connect-src \u0027self\u0027 https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://analytics.google.com https://*.doubleclick.net https://www.googleadservices.com https://translate.googleapis.com https://cdn.bizible.com https://js.adsrvr.org https://*.marketo.net https://ads-twitter.com https://analytics.twitter.com https://*.twimg.com https://api.demandbase.com https://scripts.demandbase.com https://tag.demandbase.com https://tag-logger.demandbase.com https://api.company-target.com https://*.6sc.co https://epsilon.6sense.com https://*.qualified.com wss://*.qualified.com https://*.ads.linkedin.com https://www.linkedin.com https://bat.bing.com https:; frame-src https://*.adsrvr.org https://*.cloudflare.com https://*.videodelivery.net https://www.googletagmanager.com https://*.qualified.com https://td.doubleclick.net https://bid.g.doubleclick.net https://9309168.fls.doubleclick.net https://9973066.fls.doubleclick.net https://s.company-target.com; object-src \u0027none\u0027; base-uri \u0027self\u0027; form-action \u0027self\u0027; frame-ancestors \u0027none\u0027; worker-src \u0027self\u0027 blob:; child-src \u0027self\u0027 blob:; upgrade-insecure-requests",
+                                 "content-type":  "text/html; charset=utf-8",
+                                 "cross-origin-opener-policy":  "unsafe-none",
+                                 "cross-origin-resource-policy":  "cross-origin",
+                                 "date":  "Mon, 01 Jun 2026 00:39:26 GMT",
+                                 "link":  "\u003chttps://www.cloudflare.com/.well-known/agents.json\u003e; rel=\"api-catalog\", \u003chttps://www.cloudflare.com/.well-known/webmcp.json\u003e; rel=\"service-desc\", \u003chttps://www.cloudflare.com/openapi.json\u003e; rel=\"service-desc\", \u003chttps://www.cloudflare.com/llms.txt\u003e; rel=\"service-doc\", \u003chttps://www.cloudflare.com/sitemap.xml\u003e; rel=\"sitemap\", \u003c/fonts/Kunst%20Grotesk%20Regular.woff2\u003e; rel=preload; as=font; type=\"font/woff2\"; crossorigin, \u003c/fonts/Kunst%20Grotesk%20Medium.woff2\u003e; rel=preload; as=font; type=\"font/woff2\"; crossorigin, \u003chttps://ot.www.cloudflare.com\u003e; rel=preconnect; crossorigin, \u003chttps://imagedelivery.net\u003e; rel=preconnect; crossorigin",
+                                 "nel":  "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                                 "permissions-policy":  "geolocation=(), camera=(), microphone=()",
+                                 "referrer-policy":  "strict-origin-when-cross-origin",
+                                 "report-to":  "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=8daVb7L5PphwYtUeJz3hCx9j2hEdlPWQ%2FX1CR1Cmy7mvL%2B%2FhFHiTOM3ubKfgN2EYQT8hUpoGUXYo2q70GopWcPNExDzaCfr8OGVgJzxt6RoTn7Rk5%2BE3z2hmDzepAfC37%2F%2Fbjg%3D%3D\"}]}",
+                                 "server":  "cloudflare",
+                                 "set-cookie":  "__cf_bm=Taw_OEQCeey0IVEVYcxODnKBcq.gNBIAmcv3H932TJU-1780274365.8282762-1.0.1.1-1MalG268eEXgq7kzCXbOVt3561FZOmaTZ2h3M9QHsVAdtLLPplNN0uPhcUc4CW0BuumJtQYWw8.mVGMHunfBLevgkKpFF.g7t.jd3fRSPHdu717gaG5kNr65ZpktrupkmJN5j8yMEcUnrxSqTMIZBQ; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.cloudflare.com; Expires=Mon, 01 Jun 2026 01:09:26 GMT",
+                                 "strict-transport-security":  "max-age=31536000; includeSubDomains",
+                                 "vary":  "accept-encoding",
+                                 "x-content-type-options":  "nosniff",
+                                 "x-frame-options":  "SAMEORIGIN",
+                                 "x-rm":  "GW",
+                                 "x-served-by":  "marketing-site",
+                                 "x-xss-protection":  "1; mode=block"
+                             }
+             },
+    "meta":  {
+                 "request_id":  "01KT09Y1AW85E2Y4XP4HBHRQE5",
+                 "duration_ms":  357.3,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/site/headers/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:26.145Z",
+    "request_id":  "01KT09Y1AW85E2Y4XP4HBHRQE5"
+}

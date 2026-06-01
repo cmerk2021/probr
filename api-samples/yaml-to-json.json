@@ -1,0 +1,25 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "json":  {
+                              "name":  "Probr",
+                              "version":  1
+                          }
+             },
+    "meta":  {
+                 "request_id":  "01KT09YCJSEFAR5DT9D7J6YN52",
+                 "duration_ms":  24.4,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/yaml/to-json?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:37.330Z",
+    "request_id":  "01KT09YCJSEFAR5DT9D7J6YN52"
+}

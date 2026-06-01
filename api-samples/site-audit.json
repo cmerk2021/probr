@@ -1,0 +1,101 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "url":  "https://cloudflare.com/",
+                 "meta":  {
+                              "url":  "https://cloudflare.com/",
+                              "status":  200,
+                              "title":  "Cloudflare: Build for the agent era",
+                              "description":  "Welcome to Cloudflare - Powering the next generation of applications",
+                              "canonical":  "https://www.cloudflare.com/",
+                              "language":  "en",
+                              "charset":  "UTF-8",
+                              "og":  {
+                                         "type":  "website",
+                                         "url":  "https://www.cloudflare.com/",
+                                         "title":  "Cloudflare: Build for the agent era",
+                                         "description":  "Welcome to Cloudflare - Powering the next generation of applications",
+                                         "image":  "https://www.cloudflare.com/preview.png"
+                                     },
+                              "twitter":  {
+                                              "card":  "summary_large_image",
+                                              "url":  "https://www.cloudflare.com/",
+                                              "title":  "Cloudflare: Build for the agent era",
+                                              "description":  "Welcome to Cloudflare - Powering the next generation of applications",
+                                              "image":  "https://www.cloudflare.com/preview.png"
+                                          },
+                              "icons":  [
+                                            "https://cloudflare.com/favicon.ico",
+                                            "https://cloudflare.com/favicon.ico"
+                                        ],
+                              "links":  {
+                                            "internal":  41,
+                                            "external":  19
+                                        },
+                              "duration_ms":  438
+                          },
+                 "technologies":  [
+                                      "Cloudflare"
+                                  ],
+                 "security_headers":  {
+                                          "strict-transport-security":  {
+                                                                            "present":  true,
+                                                                            "value":  "max-age=31536000; includeSubDomains"
+                                                                        },
+                                          "content-security-policy":  {
+                                                                          "present":  true,
+                                                                          "value":  "default-src \u0027self\u0027; script-src \u0027self\u0027 \u0027unsafe-inline\u0027 \u0027unsafe-eval\u0027 https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://adservice.google.com https://cdn.bizible.com https://js.adsrvr.org https://*.marketo.net https://platform.twitter.com https://static.ads-twitter.com https://scripts.demandbase.com https://tag.demandbase.com https://*.6sc.co https://*.qualified.com https://snap.licdn.com https://bat.bing.com; style-src \u0027self\u0027 \u0027unsafe-inline\u0027; img-src \u0027self\u0027 data: https:; font-src \u0027self\u0027 data:; connect-src \u0027self\u0027 https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://analytics.google.com https://*.doubleclick.net https://www.googleadservices.com https://translate.googleapis.com https://cdn.bizible.com https://js.adsrvr.org https://*.marketo.net https://ads-twitter.com https://analytics.twitter.com https://*.twimg.com https://api.demandbase.com https://scripts.demandbase.com https://tag.demandbase.com https://tag-logger.demandbase.com https://api.company-target.com https://*.6sc.co https://epsilon.6sense.com https://*.qualified.com wss://*.qualified.com https://*.ads.linkedin.com https://www.linkedin.com https://bat.bing.com https:; frame-src https://*.adsrvr.org https://*.cloudflare.com https://*.videodelivery.net https://www.googletagmanager.com https://*.qualified.com https://td.doubleclick.net https://bid.g.doubleclick.net https://9309168.fls.doubleclick.net https://9973066.fls.doubleclick.net https://s.company-target.com; object-src \u0027none\u0027; base-uri \u0027self\u0027; form-action \u0027self\u0027; frame-ancestors \u0027none\u0027; worker-src \u0027self\u0027 blob:; child-src \u0027self\u0027 blob:; upgrade-insecure-requests"
+                                                                      },
+                                          "x-content-type-options":  {
+                                                                         "present":  true,
+                                                                         "value":  "nosniff"
+                                                                     },
+                                          "x-frame-options":  {
+                                                                  "present":  true,
+                                                                  "value":  "SAMEORIGIN"
+                                                              },
+                                          "referrer-policy":  {
+                                                                  "present":  true,
+                                                                  "value":  "strict-origin-when-cross-origin"
+                                                              },
+                                          "permissions-policy":  {
+                                                                     "present":  true,
+                                                                     "value":  "geolocation=(), camera=(), microphone=()"
+                                                                 },
+                                          "cross-origin-opener-policy":  {
+                                                                             "present":  true,
+                                                                             "value":  "unsafe-none"
+                                                                         },
+                                          "cross-origin-embedder-policy":  {
+                                                                               "present":  false,
+                                                                               "value":  null
+                                                                           },
+                                          "cross-origin-resource-policy":  {
+                                                                               "present":  true,
+                                                                               "value":  "cross-origin"
+                                                                           }
+                                      },
+                 "response":  {
+                                  "status":  200,
+                                  "bytes":  1377203,
+                                  "content_type":  "text/html; charset=utf-8",
+                                  "compressed":  true
+                              }
+             },
+    "meta":  {
+                 "request_id":  "01KT09Y0NZV1RB5918559V1HH7",
+                 "duration_ms":  460.9,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/site/audit/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:25.581Z",
+    "request_id":  "01KT09Y0NZV1RB5918559V1HH7"
+}

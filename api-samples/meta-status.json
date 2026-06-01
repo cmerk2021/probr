@@ -1,0 +1,47 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "service":  "Alloy",
+                 "tagline":  "Powerful internet infrastructure APIs, freely available to everyone.",
+                 "version":  "1.0.0",
+                 "status":  "operational",
+                 "uptime_seconds":  1224,
+                 "open_incidents":  [
+
+                                    ],
+                 "announcements":  [
+
+                                   ],
+                 "categories":  [
+                                    "network",
+                                    "dns",
+                                    "domain",
+                                    "email",
+                                    "tls",
+                                    "web",
+                                    "security",
+                                    "utilities",
+                                    "data",
+                                    "flagship",
+                                    "meta"
+                                ],
+                 "endpoint_count":  82,
+                 "timestamp":  "2026-06-01T00:39:33.444Z"
+             },
+    "meta":  {
+                 "request_id":  "01KT09Y8S7CT06FRSB0XFVRG4E",
+                 "duration_ms":  28.4,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/meta/status?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:33.444Z",
+    "request_id":  "01KT09Y8S7CT06FRSB0XFVRG4E"
+}

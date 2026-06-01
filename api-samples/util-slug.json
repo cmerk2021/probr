@@ -1,0 +1,23 @@
+﻿{
+  "success": true,
+  "data": {
+    "input": "Hello World Example",
+    "slug": "hello-world-example"
+  },
+  "meta": {
+    "request_id": "01KT09ZYP6FBJFDZWKK45TQC3B",
+    "duration_ms": 5.4,
+    "auth": {
+      "authenticated": true,
+      "tier": "internal",
+      "key_label": "Connor Merk ΓÇö Alloy API",
+      "key_prefix": "l49peiw1"
+    }
+  },
+  "links": {
+    "self": "/api/slug?input=Hello%20World%20Example&pretty=true",
+    "docs": "https://api.connormerk.dev/docs/reference"
+  },
+  "timestamp": "2026-06-01T00:40:28.619Z",
+  "request_id": "01KT09ZYP6FBJFDZWKK45TQC3B"
+}

@@ -1,0 +1,33 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "domain":  "cloudflare.com",
+                 "type":  "A",
+                 "records":  [
+                                 {
+                                     "address":  "104.16.133.229",
+                                     "ttl":  289
+                                 },
+                                 {
+                                     "address":  "104.16.132.229",
+                                     "ttl":  289
+                                 }
+                             ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09WF1BYP4QP4AJFHF3BWN9",
+                 "duration_ms":  33.7,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/dns/a/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:38:34.318Z",
+    "request_id":  "01KT09WF1BYP4QP4AJFHF3BWN9"
+}

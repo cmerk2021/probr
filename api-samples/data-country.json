@@ -1,0 +1,36 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "cca2":  "US",
+                 "cca3":  "USA",
+                 "name":  "United States",
+                 "capital":  "Washington, D.C.",
+                 "region":  "Americas",
+                 "currencies":  [
+                                    "USD"
+                                ],
+                 "calling_code":  "+1",
+                 "languages":  [
+                                   "en"
+                               ],
+                 "tld":  [
+                             ".us"
+                         ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09Y74TXTN3M9C708KSKGHS",
+                 "duration_ms":  14.6,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/country/US?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:31.753Z",
+    "request_id":  "01KT09Y74TXTN3M9C708KSKGHS"
+}

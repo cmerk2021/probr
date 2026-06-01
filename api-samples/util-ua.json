@@ -1,0 +1,42 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "input":  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                 "ua":  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                 "browser":  {
+                                 "name":  "WebKit",
+                                 "version":  "537.36",
+                                 "major":  "537"
+                             },
+                 "cpu":  {
+                             "architecture":  "amd64"
+                         },
+                 "device":  {
+
+                            },
+                 "engine":  {
+                                "name":  "WebKit",
+                                "version":  "537.36"
+                            },
+                 "os":  {
+                            "name":  "Windows",
+                            "version":  "10"
+                        }
+             },
+    "meta":  {
+                 "request_id":  "01KT09Y61EAZXG2Y1EWCS8QBXH",
+                 "duration_ms":  23.6,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/ua/parse?ua=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36\u0026pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:30.630Z",
+    "request_id":  "01KT09Y61EAZXG2Y1EWCS8QBXH"
+}

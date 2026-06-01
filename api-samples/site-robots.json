@@ -1,0 +1,111 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "url":  "https://cloudflare.com/robots.txt",
+                 "status":  200,
+                 "exists":  true,
+                 "rules":  [
+                               {
+                                   "user_agent":  "*",
+                                   "allow":  [
+                                                 "/"
+                                             ],
+                                   "disallow":  [
+
+                                                ]
+                               },
+                               {
+                                   "user_agent":  "GPTBot",
+                                   "allow":  [
+                                                 "/"
+                                             ],
+                                   "disallow":  [
+
+                                                ]
+                               },
+                               {
+                                   "user_agent":  "ChatGPT-User",
+                                   "allow":  [
+                                                 "/"
+                                             ],
+                                   "disallow":  [
+
+                                                ]
+                               },
+                               {
+                                   "user_agent":  "Google-Extended",
+                                   "allow":  [
+                                                 "/"
+                                             ],
+                                   "disallow":  [
+
+                                                ]
+                               },
+                               {
+                                   "user_agent":  "Anthropic-AI",
+                                   "allow":  [
+                                                 "/"
+                                             ],
+                                   "disallow":  [
+
+                                                ]
+                               },
+                               {
+                                   "user_agent":  "Claude-Web",
+                                   "allow":  [
+                                                 "/"
+                                             ],
+                                   "disallow":  [
+
+                                                ]
+                               },
+                               {
+                                   "user_agent":  "CCBot",
+                                   "allow":  [
+                                                 "/"
+                                             ],
+                                   "disallow":  [
+
+                                                ]
+                               },
+                               {
+                                   "user_agent":  "PerplexityBot",
+                                   "allow":  [
+                                                 "/"
+                                             ],
+                                   "disallow":  [
+
+                                                ]
+                               },
+                               {
+                                   "user_agent":  "Cohere-ai",
+                                   "allow":  [
+                                                 "/"
+                                             ],
+                                   "disallow":  [
+
+                                                ]
+                               }
+                           ],
+                 "sitemaps":  [
+                                  "https://www.cloudflare.com/sitemap.xml"
+                              ],
+                 "raw":  "# Robots.txt for www.cloudflare.com\n\nUser-agent: *\nAllow: /\n\n# Sitemap\nSitemap: https://www.cloudflare.com/sitemap.xml\n\n# AI/LLM friendly content\n# See https://llmstxt.org for the llms.txt specification\n# llms.txt provides curated content for AI assistants and LLMs\n\n# Allow AI crawlers to access markdown versions of pages\nUser-agent: GPTBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: Google-Extended\nAllow: /\n\nUser-agent: Anthropic-AI\nAllow: /\n\nUser-agent: Claude-Web\nAllow: /\n\nUser-agent: CCBot\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: Cohere-ai\nAllow: /\n\n# Content Signals — declare AI content usage preferences\n# See https://contentsignals.org/ and https://datatracker.ietf.org/doc/draft-romm-aipref-contentsignals/\nContent-Signal: ai-train=yes, search=yes, ai-input=yes\n\n# AI-friendly content locations\n# - /llms.txt - Curated overview for AI/LLMs (markdown)\n# - /llms-full.txt - Full expanded content for larger context windows\n# - /*.md - Markdown versions of all pages (append .md to any URL)\n# - /.well-known/agents.json - Agent discovery and capabilities\n"
+             },
+    "meta":  {
+                 "request_id":  "01KT09Y1WFPDK0S097KM7CJX79",
+                 "duration_ms":  245.7,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/site/robots/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:26.597Z",
+    "request_id":  "01KT09Y1WFPDK0S097KM7CJX79"
+}

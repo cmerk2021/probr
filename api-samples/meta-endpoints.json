@@ -1,0 +1,841 @@
+﻿{
+    "success":  true,
+    "data":  [
+                 {
+                     "method":  "GET",
+                     "path":  "/api/network/intelligence/:ip",
+                     "category":  "network",
+                     "summary":  "Comprehensive IP intelligence",
+                     "description":  "Combines ASN, geo, reverse DNS, RPKI, BGP, anycast and bogon indicators for an IP address.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/ip/:ip",
+                     "category":  "network",
+                     "summary":  "IP address lookup",
+                     "description":  "Returns information about an IPv4 or IPv6 address.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/asn/:asn",
+                     "category":  "network",
+                     "summary":  "ASN information",
+                     "description":  "Returns metadata, organization, and announced prefixes for an Autonomous System Number.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/bgp/prefix/:prefix",
+                     "category":  "network",
+                     "summary":  "BGP prefix details",
+                     "description":  "Returns BGP routing information for an IP prefix.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/bgp/asn/:asn",
+                     "category":  "network",
+                     "summary":  "BGP ASN details",
+                     "description":  "Returns BGP peers and announced prefixes for an ASN.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/rpki/:prefix",
+                     "category":  "network",
+                     "summary":  "RPKI validation",
+                     "description":  "Returns RPKI ROA validation state for a prefix.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/cidr/analyze/:cidr",
+                     "category":  "network",
+                     "summary":  "Analyze CIDR block",
+                     "description":  "Returns network, broadcast, usable host counts, and bit layout for a CIDR.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/cidr/expand/:cidr",
+                     "category":  "network",
+                     "summary":  "Expand CIDR block",
+                     "description":  "Returns the list of addresses in a CIDR block (bounded).",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/cidr/summarize",
+                     "category":  "network",
+                     "summary":  "Summarize CIDRs",
+                     "description":  "Aggregates a list of CIDRs into the smallest set of supernets.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/reverse-dns/:ip",
+                     "category":  "network",
+                     "summary":  "Reverse DNS",
+                     "description":  "Returns the PTR record(s) for an IP address.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/whois/ip/:ip",
+                     "category":  "network",
+                     "summary":  "IP WHOIS / RDAP",
+                     "description":  "Returns registry data for an IP address using RDAP.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/dns/lookup/:domain",
+                     "category":  "dns",
+                     "summary":  "DNS multi-record lookup",
+                     "description":  "Returns A, AAAA, MX, TXT, NS, CNAME, SOA, and CAA records for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/dns/a/:domain",
+                     "category":  "dns",
+                     "summary":  "A records",
+                     "description":  "Returns IPv4 address records for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/dns/aaaa/:domain",
+                     "category":  "dns",
+                     "summary":  "AAAA records",
+                     "description":  "Returns IPv6 address records for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/dns/mx/:domain",
+                     "category":  "dns",
+                     "summary":  "MX records",
+                     "description":  "Returns mail exchanger records for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/dns/txt/:domain",
+                     "category":  "dns",
+                     "summary":  "TXT records",
+                     "description":  "Returns TXT records for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/dns/ns/:domain",
+                     "category":  "dns",
+                     "summary":  "NS records",
+                     "description":  "Returns authoritative name servers for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/dns/cname/:domain",
+                     "category":  "dns",
+                     "summary":  "CNAME records",
+                     "description":  "Returns CNAME records for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/dns/dnssec/:domain",
+                     "category":  "dns",
+                     "summary":  "DNSSEC inspection",
+                     "description":  "Returns DNSSEC validation data for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/dns/spf/:domain",
+                     "category":  "dns",
+                     "summary":  "SPF inspection",
+                     "description":  "Parses and validates the SPF record for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/dns/dmarc/:domain",
+                     "category":  "dns",
+                     "summary":  "DMARC inspection",
+                     "description":  "Parses and validates the DMARC record for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/dns/propagation/:domain",
+                     "category":  "dns",
+                     "summary":  "DNS propagation",
+                     "description":  "Queries multiple public resolvers to check propagation of a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/domain/intelligence/:domain",
+                     "category":  "domain",
+                     "summary":  "Domain intelligence",
+                     "description":  "Aggregated registrar, WHOIS, DNS and security signals for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/domain/whois/:domain",
+                     "category":  "domain",
+                     "summary":  "Domain WHOIS / RDAP",
+                     "description":  "Returns RDAP information for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/domain/registrar/:domain",
+                     "category":  "domain",
+                     "summary":  "Domain registrar",
+                     "description":  "Returns the registrar for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/domain/nameservers/:domain",
+                     "category":  "domain",
+                     "summary":  "Domain name servers",
+                     "description":  "Returns the name servers configured for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/domain/age/:domain",
+                     "category":  "domain",
+                     "summary":  "Domain age",
+                     "description":  "Returns the age of a domain in days.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/email/health/:domain",
+                     "category":  "email",
+                     "summary":  "Email deliverability health",
+                     "description":  "Inspects SPF, DKIM, DMARC, MX, and TLS for the domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/email/mx/:domain",
+                     "category":  "email",
+                     "summary":  "Email MX records",
+                     "description":  "Returns mail exchanger records for the domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/email/spf/:domain",
+                     "category":  "email",
+                     "summary":  "SPF check",
+                     "description":  "Inspects the SPF record for the domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/email/dmarc/:domain",
+                     "category":  "email",
+                     "summary":  "DMARC check",
+                     "description":  "Inspects the DMARC record for the domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/email/dkim/:domain",
+                     "category":  "email",
+                     "summary":  "DKIM lookup",
+                     "description":  "Attempts common DKIM selectors for the domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/email/diagnose/:domain",
+                     "category":  "email",
+                     "summary":  "Full email diagnostic",
+                     "description":  "Comprehensive deliverability diagnostic.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/tls/:host",
+                     "category":  "tls",
+                     "summary":  "TLS overview",
+                     "description":  "Returns the negotiated TLS version, cipher, and validity for a host.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/tls/certificate/:host",
+                     "category":  "tls",
+                     "summary":  "TLS certificate",
+                     "description":  "Returns the parsed certificate served by a host.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/tls/ciphers/:host",
+                     "category":  "tls",
+                     "summary":  "TLS cipher suites",
+                     "description":  "Enumerates ciphers offered by the host.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/tls/analyze/:host",
+                     "category":  "tls",
+                     "summary":  "TLS analysis",
+                     "description":  "Returns a comprehensive TLS analysis including hostname matching, protocol support, and certificate chain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/certificate-transparency/:domain",
+                     "category":  "tls",
+                     "summary":  "CT log search",
+                     "description":  "Searches certificate transparency logs for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/url/meta",
+                     "category":  "web",
+                     "summary":  "URL metadata",
+                     "description":  "Fetches a URL and extracts title, description, OpenGraph, and link metadata.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/site/audit/:domain",
+                     "category":  "web",
+                     "summary":  "Site audit",
+                     "description":  "Performs a multi-signal audit of a website.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/site/headers/:domain",
+                     "category":  "web",
+                     "summary":  "HTTP response headers",
+                     "description":  "Returns response headers from the root URL of a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/site/robots/:domain",
+                     "category":  "web",
+                     "summary":  "robots.txt inspection",
+                     "description":  "Fetches and parses robots.txt for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/site/sitemap/:domain",
+                     "category":  "web",
+                     "summary":  "sitemap.xml inspection",
+                     "description":  "Discovers and parses sitemap.xml for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/site/performance/:domain",
+                     "category":  "web",
+                     "summary":  "Server-side performance",
+                     "description":  "Measures TTFB, response time, and basic resource hints from the server.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/site/technology/:domain",
+                     "category":  "web",
+                     "summary":  "Technology fingerprint",
+                     "description":  "Detects web technologies based on response headers and HTML signals.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/security/headers",
+                     "category":  "security",
+                     "summary":  "Security headers audit",
+                     "description":  "Audits security headers for a URL.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/security/hash/:hash",
+                     "category":  "security",
+                     "summary":  "Hash classifier",
+                     "description":  "Identifies likely hash type and properties.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/security/domain/:domain",
+                     "category":  "security",
+                     "summary":  "Domain risk indicators",
+                     "description":  "Heuristic risk indicators for a domain.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/security/url",
+                     "category":  "security",
+                     "summary":  "URL risk indicators",
+                     "description":  "Heuristic risk indicators for a URL.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/security/password",
+                     "category":  "security",
+                     "summary":  "Password strength",
+                     "description":  "Analyzes the strength of a password locally (never logged or stored).",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/uuid",
+                     "category":  "utilities",
+                     "summary":  "Generate UUID",
+                     "description":  "Generates a UUID (v4 by default).",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/uuid/bulk",
+                     "category":  "utilities",
+                     "summary":  "Bulk UUIDs",
+                     "description":  "Generates multiple UUIDs in one request.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/ulid",
+                     "category":  "utilities",
+                     "summary":  "Generate ULID",
+                     "description":  "Generates a ULID.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/base64/encode",
+                     "category":  "utilities",
+                     "summary":  "Base64 encode",
+                     "description":  "Base64-encodes a string.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/base64/decode",
+                     "category":  "utilities",
+                     "summary":  "Base64 decode",
+                     "description":  "Base64-decodes a string.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/hash/md5",
+                     "category":  "utilities",
+                     "summary":  "MD5 hash",
+                     "description":  "Computes an MD5 hash.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/hash/sha1",
+                     "category":  "utilities",
+                     "summary":  "SHA1 hash",
+                     "description":  "Computes a SHA1 hash.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/hash/sha256",
+                     "category":  "utilities",
+                     "summary":  "SHA256 hash",
+                     "description":  "Computes a SHA256 hash.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/hash/sha512",
+                     "category":  "utilities",
+                     "summary":  "SHA512 hash",
+                     "description":  "Computes a SHA512 hash.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/jwt/decode",
+                     "category":  "utilities",
+                     "summary":  "Decode JWT",
+                     "description":  "Decodes (without verification) a JWT and returns its header, payload, and signature.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/json/format",
+                     "category":  "utilities",
+                     "summary":  "Format JSON",
+                     "description":  "Pretty-prints or compacts a JSON document.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/json/validate",
+                     "category":  "utilities",
+                     "summary":  "Validate JSON",
+                     "description":  "Validates a JSON document.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/yaml/to-json",
+                     "category":  "utilities",
+                     "summary":  "YAML to JSON",
+                     "description":  "Converts YAML to JSON.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/json/to-yaml",
+                     "category":  "utilities",
+                     "summary":  "JSON to YAML",
+                     "description":  "Converts JSON to YAML.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/csv/to-json",
+                     "category":  "utilities",
+                     "summary":  "CSV to JSON",
+                     "description":  "Converts CSV to JSON.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/json/to-csv",
+                     "category":  "utilities",
+                     "summary":  "JSON to CSV",
+                     "description":  "Converts JSON to CSV.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "POST",
+                     "path":  "/api/regex/test",
+                     "category":  "utilities",
+                     "summary":  "Test regex",
+                     "description":  "Tests a regular expression against an input.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/cron/parse",
+                     "category":  "utilities",
+                     "summary":  "Parse cron expression",
+                     "description":  "Returns a human-readable description and next runs of a cron expression.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/ua/parse",
+                     "category":  "utilities",
+                     "summary":  "Parse user agent",
+                     "description":  "Parses a user agent string.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/slug",
+                     "category":  "utilities",
+                     "summary":  "Slugify",
+                     "description":  "Converts a string to a URL-safe slug.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/password/generate",
+                     "category":  "utilities",
+                     "summary":  "Generate password",
+                     "description":  "Generates a cryptographically random password.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/qr/generate",
+                     "category":  "utilities",
+                     "summary":  "Generate QR code",
+                     "description":  "Generates a QR code (PNG or SVG) for arbitrary data.",
+                     "authRequired":  false,
+                     "cacheable":  false,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/timezone",
+                     "category":  "data",
+                     "summary":  "Timezone info",
+                     "description":  "Returns timezone information.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/country/:country",
+                     "category":  "data",
+                     "summary":  "Country info",
+                     "description":  "Returns reference data for a country.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/currency/rates",
+                     "category":  "data",
+                     "summary":  "Currency reference",
+                     "description":  "Returns a static reference of currency codes (live FX requires an upstream).",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/language/:code",
+                     "category":  "data",
+                     "summary":  "Language info",
+                     "description":  "Returns ISO language code information.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/postal/:postal",
+                     "category":  "data",
+                     "summary":  "Postal code info",
+                     "description":  "Validates a postal code against known country formats.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/internet/diagnose",
+                     "category":  "flagship",
+                     "summary":  "Internet diagnostic (flagship)",
+                     "description":  "Combines DNS, DNSSEC, TLS, HTTP, headers, IPv6, email, BGP, RPKI, and security signals into one comprehensive response.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/meta/endpoints",
+                     "category":  "meta",
+                     "summary":  "List endpoints",
+                     "description":  "Returns the registry of all endpoints.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/meta/openapi",
+                     "category":  "meta",
+                     "summary":  "OpenAPI document",
+                     "description":  "Returns the OpenAPI 3.1 document for the API.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/meta/categories",
+                     "category":  "meta",
+                     "summary":  "List categories",
+                     "description":  "Returns the list of endpoint categories.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 },
+                 {
+                     "method":  "GET",
+                     "path":  "/api/meta/status",
+                     "category":  "meta",
+                     "summary":  "Service status",
+                     "description":  "Returns the high-level status of the service.",
+                     "authRequired":  false,
+                     "cacheable":  true,
+                     "tier":  "anonymous"
+                 }
+             ],
+    "meta":  {
+                 "request_id":  "01KT09Y8ASGBSSMB505G4Q5KGR",
+                 "duration_ms":  11,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/meta/endpoints?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:32.964Z",
+    "request_id":  "01KT09Y8ASGBSSMB505G4Q5KGR"
+}

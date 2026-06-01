@@ -1,0 +1,75 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "host":  "cloudflare.com",
+                 "port":  443,
+                 "grade":  "A",
+                 "protocol":  "TLSv1.3",
+                 "cipher":  {
+                                "name":  "TLS_AES_256_GCM_SHA384",
+                                "standardName":  "TLS_AES_256_GCM_SHA384",
+                                "version":  "TLSv1.3"
+                            },
+                 "certificate":  {
+                                     "subject":  {
+                                                     "CN":  "cloudflare.com"
+                                                 },
+                                     "issuer":  {
+                                                    "C":  "US",
+                                                    "O":  "Google Trust Services",
+                                                    "CN":  "WE1"
+                                                },
+                                     "subject_alt_names":  [
+                                                               "cloudflare.com",
+                                                               "ns.cloudflare.com",
+                                                               "*.ns.cloudflare.com",
+                                                               "*.secondary.cloudflare.com",
+                                                               "secondary.cloudflare.com"
+                                                           ],
+                                     "serial":  "A49C58EF69B060221328ECA90D788485",
+                                     "fingerprint_sha256":  "DD:59:95:64:1D:BD:59:21:29:DB:32:6D:F0:82:E4:00:D8:62:7A:DD:8B:8C:7D:B4:81:93:13:93:91:ED:F6:1C",
+                                     "valid_from":  "May 10 21:14:06 2026 GMT",
+                                     "valid_to":  "Aug  8 22:14:02 2026 GMT",
+                                     "days_remaining":  68,
+                                     "key_type":  "prime256v1",
+                                     "key_bits":  256
+                                 },
+                 "chain_length":  3,
+                 "supported_ciphers":  [
+                                           "ECDHE-RSA-AES256-GCM-SHA384",
+                                           "ECDHE-RSA-AES128-GCM-SHA256",
+                                           "ECDHE-ECDSA-CHACHA20-POLY1305",
+                                           "ECDHE-ECDSA-AES128-GCM-SHA256",
+                                           "AES128-GCM-SHA256",
+                                           "ECDHE-ECDSA-AES256-GCM-SHA384",
+                                           "AES256-GCM-SHA384",
+                                           "ECDHE-RSA-CHACHA20-POLY1305",
+                                           "AES256-SHA",
+                                           "AES128-SHA"
+                                       ],
+                 "unsupported_ciphers":  [
+                                             "DHE-RSA-AES256-GCM-SHA384",
+                                             "DHE-RSA-AES128-GCM-SHA256"
+                                         ],
+                 "hostname_match":  true,
+                 "findings":  [
+
+                              ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09XKVR254982RWHYFFMC9R",
+                 "duration_ms":  90,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/tls/analyze/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:12.082Z",
+    "request_id":  "01KT09XKVR254982RWHYFFMC9R"
+}

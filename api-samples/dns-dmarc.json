@@ -1,0 +1,41 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "domain":  "cloudflare.com",
+                 "present":  true,
+                 "records":  [
+                                 {
+                                     "raw":  "v=DMARC1; p=reject; pct=100; rua=mailto:a1c47f179bc04efd8ee4dcd4d85dfc65@dmarc-reports.cloudflare.net,mailto:rua@cloudflare.com",
+                                     "policy":  "reject",
+                                     "subdomain_policy":  null,
+                                     "percent":  100,
+                                     "rua":  "mailto:a1c47f179bc04efd8ee4dcd4d85dfc65@dmarc-reports.cloudflare.net,mailto:rua@cloudflare.com",
+                                     "ruf":  null,
+                                     "alignment_spf":  null,
+                                     "alignment_dkim":  null,
+                                     "tags":  {
+                                                  "v":  "DMARC1",
+                                                  "p":  "reject",
+                                                  "pct":  "100",
+                                                  "rua":  "mailto:a1c47f179bc04efd8ee4dcd4d85dfc65@dmarc-reports.cloudflare.net,mailto:rua@cloudflare.com"
+                                              }
+                                 }
+                             ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09WH1NBGEMYEQDFXGZ1S93",
+                 "duration_ms":  33.4,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/dns/dmarc/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:38:36.374Z",
+    "request_id":  "01KT09WH1NBGEMYEQDFXGZ1S93"
+}

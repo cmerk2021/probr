@@ -1,0 +1,25 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "timezone":  "America/New_York",
+                 "current_time":  "5/31/2026, 8:39:31 PM",
+                 "iso_offset":  "GMT-04:00",
+                 "now_utc":  "2026-06-01T00:39:31.533Z"
+             },
+    "meta":  {
+                 "request_id":  "01KT09Y6X5RWBF67ES5JF15R4D",
+                 "duration_ms":  40.6,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/timezone?tz=America%2FNew_York\u0026pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:31.534Z",
+    "request_id":  "01KT09Y6X5RWBF67ES5JF15R4D"
+}

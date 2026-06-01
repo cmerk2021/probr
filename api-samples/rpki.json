@@ -1,0 +1,39 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "prefix":  "1.1.1.0/24",
+                 "validations":  [
+                                     {
+                                         "asn":  13335,
+                                         "resource":  "13335",
+                                         "prefix":  "1.1.1.0/24",
+                                         "validating_roas":  [
+                                                                 {
+                                                                     "origin":  "13335",
+                                                                     "prefix":  "1.1.1.0/24",
+                                                                     "validity":  "valid",
+                                                                     "max_length":  24
+                                                                 }
+                                                             ],
+                                         "status":  "valid",
+                                         "validator":  "routinator"
+                                     }
+                                 ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09WDFRP4V1DHKK10SYKEBD",
+                 "duration_ms":  217,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/rpki/1.1.1.0%2F24?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:38:32.914Z",
+    "request_id":  "01KT09WDFRP4V1DHKK10SYKEBD"
+}

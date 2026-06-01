@@ -1,0 +1,22 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "csv":  "name,version\r\nProbr,1.0"
+             },
+    "meta":  {
+                 "request_id":  "01KT09YDEXE2A1D01HPBAMCB8Q",
+                 "duration_ms":  14,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/json/to-csv?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:38.219Z",
+    "request_id":  "01KT09YDEXE2A1D01HPBAMCB8Q"
+}

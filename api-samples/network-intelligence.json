@@ -1,0 +1,56 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "ip":  "8.8.8.8",
+                 "family":  4,
+                 "asn":  {
+                             "asn":  15169,
+                             "holder":  "GOOGLE - Google LLC",
+                             "block":  {
+                                           "resource":  "13312-15359",
+                                           "desc":  "Assigned by ARIN",
+                                           "name":  "IANA 16-bit Autonomous System (AS) Numbers Registry"
+                                       }
+                         },
+                 "prefix":  "8.8.8.0/24",
+                 "geo":  {
+                             "country":  "US",
+                             "city":  "",
+                             "resources":  [
+                                               "8.8.8.0/23"
+                                           ],
+                             "latitude":  37.751,
+                             "longitude":  -97.822,
+                             "covered_percentage":  100
+                         },
+                 "reverse_dns":  [
+                                     "dns.google"
+                                 ],
+                 "rdap":  {
+                              "handle":  "NET-8-8-8-0-2",
+                              "name":  "GOGL",
+                              "startAddress":  "8.8.8.0",
+                              "endAddress":  "8.8.8.255"
+                          },
+                 "flags":  {
+                               "bogon":  false,
+                               "anycast_indicator":  false
+                           }
+             },
+    "meta":  {
+                 "request_id":  "01KT09W9NGDKCK555E25HFRBR9",
+                 "duration_ms":  600.5,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/network/intelligence/8.8.8.8?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:38:29.385Z",
+    "request_id":  "01KT09W9NGDKCK555E25HFRBR9"
+}

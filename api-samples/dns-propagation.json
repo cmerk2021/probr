@@ -1,0 +1,122 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "domain":  "cloudflare.com",
+                 "type":  "A",
+                 "results":  [
+                                 {
+                                     "resolver":  "Cloudflare",
+                                     "servers":  [
+                                                     "1.1.1.1",
+                                                     "1.0.0.1"
+                                                 ],
+                                     "latency_ms":  19,
+                                     "records":  [
+                                                     {
+                                                         "address":  "104.16.132.229",
+                                                         "ttl":  224
+                                                     },
+                                                     {
+                                                         "address":  "104.16.133.229",
+                                                         "ttl":  224
+                                                     }
+                                                 ]
+                                 },
+                                 {
+                                     "resolver":  "Google",
+                                     "servers":  [
+                                                     "8.8.8.8",
+                                                     "8.8.4.4"
+                                                 ],
+                                     "latency_ms":  29,
+                                     "records":  [
+                                                     {
+                                                         "address":  "104.16.133.229",
+                                                         "ttl":  300
+                                                     },
+                                                     {
+                                                         "address":  "104.16.132.229",
+                                                         "ttl":  300
+                                                     }
+                                                 ]
+                                 },
+                                 {
+                                     "resolver":  "Quad9",
+                                     "servers":  [
+                                                     "9.9.9.9",
+                                                     "149.112.112.112"
+                                                 ],
+                                     "latency_ms":  6,
+                                     "records":  [
+                                                     {
+                                                         "address":  "104.16.132.229",
+                                                         "ttl":  66
+                                                     },
+                                                     {
+                                                         "address":  "104.16.133.229",
+                                                         "ttl":  66
+                                                     }
+                                                 ]
+                                 },
+                                 {
+                                     "resolver":  "OpenDNS",
+                                     "servers":  [
+                                                     "208.67.222.222",
+                                                     "208.67.220.220"
+                                                 ],
+                                     "latency_ms":  8,
+                                     "records":  [
+                                                     {
+                                                         "address":  "104.16.132.229",
+                                                         "ttl":  23
+                                                     },
+                                                     {
+                                                         "address":  "104.16.133.229",
+                                                         "ttl":  23
+                                                     }
+                                                 ]
+                                 },
+                                 {
+                                     "resolver":  "AdGuard",
+                                     "servers":  [
+                                                     "94.140.14.14",
+                                                     "94.140.15.15"
+                                                 ],
+                                     "latency_ms":  37,
+                                     "records":  [
+                                                     {
+                                                         "address":  "104.16.132.229",
+                                                         "ttl":  95
+                                                     },
+                                                     {
+                                                         "address":  "104.16.133.229",
+                                                         "ttl":  95
+                                                     }
+                                                 ]
+                                 },
+                                 {
+                                     "resolver":  "Mullvad",
+                                     "servers":  [
+                                                     "194.242.2.2"
+                                                 ],
+                                     "error":  "queryA EREFUSED cloudflare.com"
+                                 }
+                             ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09WH98RJ09QNSPWGA8Y92F",
+                 "duration_ms":  58.2,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/dns/propagation/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:38:36.642Z",
+    "request_id":  "01KT09WH98RJ09QNSPWGA8Y92F"
+}

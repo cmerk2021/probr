@@ -1,0 +1,30 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "expression":  "0 * * * *",
+                 "fields":  {
+                                "minute":  "0",
+                                "hour":  "*",
+                                "day_of_month":  "*",
+                                "month":  "*",
+                                "day_of_week":  "*"
+                            },
+                 "description":  "minute=0, every hour, every day-of-month, every month, every day-of-week"
+             },
+    "meta":  {
+                 "request_id":  "01KT09Y5TTZ4QR7QYJR0TVN3FQ",
+                 "duration_ms":  12.4,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/cron/parse?expr=0+*+*+*+*\u0026pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:30.407Z",
+    "request_id":  "01KT09Y5TTZ4QR7QYJR0TVN3FQ"
+}

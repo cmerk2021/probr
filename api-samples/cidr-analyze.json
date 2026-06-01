@@ -1,0 +1,32 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "cidr":  "10.0.0.0/24",
+                 "family":  4,
+                 "network":  "10.0.0.0",
+                 "prefix":  24,
+                 "num_addresses":  "256",
+                 "num_hosts":  "254",
+                 "broadcast":  "10.0.0.255",
+                 "first_host":  "10.0.0.1",
+                 "last_host":  "10.0.0.254",
+                 "netmask":  "255.255.255.0",
+                 "wildcard":  "0.0.0.255"
+             },
+    "meta":  {
+                 "request_id":  "01KT09WDWNB2JW7YHZFHPQRZM4",
+                 "duration_ms":  4.6,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/cidr/analyze/10.0.0.0%2F24?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:38:33.114Z",
+    "request_id":  "01KT09WDWNB2JW7YHZFHPQRZM4"
+}

@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    background-color: theme('colors.surface.950');
+    background-image:
+      radial-gradient(circle at 8% -10%, rgba(124, 95, 255, 0.10) 0%, transparent 40%),
+      radial-gradient(circle at 92% 110%, rgba(96, 64, 238, 0.08) 0%, transparent 40%),
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.49 0 0 0 0 0.37 0 0 0 0 1 0 0 0 0.025 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    background-color: rgba(124, 95, 255, 0.35);
+    color: theme('colors.brand.50');
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: theme('colors.surface.900');
+  }
+  ::-webkit-scrollbar-thumb {
+    background: theme('colors.surface.600');
+    border-radius: 9999px;
+    border: 2px solid theme('colors.surface.900');
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: theme('colors.brand.700');
+  }
+
+  :focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px theme('colors.brand.400');
+    border-radius: 6px;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-lg border border-surface-700 bg-surface-900/80 backdrop-blur-sm;
+    @apply transition-colors duration-150;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.02) inset;
+  }
+
+  .card-hoverable:hover {
+    @apply border-brand-400/60;
+    box-shadow:
+      0 0 0 1px rgba(124, 95, 255, 0.25),
+      0 0 24px -8px rgba(124, 95, 255, 0.45);
+  }
+
+  .mono {
+    font-family: theme('fontFamily.mono');
+    font-feature-settings: 'ss01', 'cv01', 'zero';
+  }
+
+  .glow-green {
+    box-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
+  }
+  .glow-yellow {
+    box-shadow: 0 0 8px rgba(234, 179, 8, 0.6);
+  }
+  .glow-red {
+    box-shadow: 0 0 8px rgba(239, 68, 68, 0.6);
+  }
+  .glow-brand {
+    box-shadow: 0 0 8px rgba(124, 95, 255, 0.6);
+  }
+
+  .skeleton {
+    background-image: linear-gradient(
+      90deg,
+      theme('colors.surface.800') 0%,
+      theme('colors.surface.700') 50%,
+      theme('colors.surface.800') 100%
+    );
+    background-size: 200% 100%;
+    @apply animate-shimmer rounded-md;
+  }
+}

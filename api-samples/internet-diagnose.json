@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "error": {
+    "code": "not_found",
+    "message": "Route GET:/api/internet/diagnose/cloudflare.com?pretty=true not found"
+  },
+  "request_id": "01KT0A263KF3ABC3PDD44PTMY4",
+  "timestamp": "2026-06-01T00:41:41.758Z"
+}

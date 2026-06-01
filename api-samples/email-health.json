@@ -1,0 +1,57 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "domain":  "cloudflare.com",
+                 "grade":  "A",
+                 "score":  100,
+                 "mx":  [
+                            {
+                                "exchange":  "mxa-canary.global.inbound.cf-emailsecurity.net",
+                                "priority":  5
+                            },
+                            {
+                                "exchange":  "mxb-canary.global.inbound.cf-emailsecurity.net",
+                                "priority":  5
+                            },
+                            {
+                                "exchange":  "mxa.global.inbound.cf-emailsecurity.net",
+                                "priority":  10
+                            },
+                            {
+                                "exchange":  "mxb.global.inbound.cf-emailsecurity.net",
+                                "priority":  10
+                            }
+                        ],
+                 "spf":  [
+                             "v=spf1 ip4:199.15.212.0/22 ip4:173.245.48.0/20 include:_spf.google.com include:spf1.mcsv.net include:spf.mandrillapp.com include:mail.zendesk.com include:stspg-customer.com include:_spf.salesforce.com -all"
+                         ],
+                 "dmarc":  [
+                               "v=DMARC1; p=reject; pct=100; rua=mailto:a1c47f179bc04efd8ee4dcd4d85dfc65@dmarc-reports.cloudflare.net,mailto:rua@cloudflare.com"
+                           ],
+                 "dkim":  [
+                              {
+                                  "selector":  "mandrill",
+                                  "record":  "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB"
+                              }
+                          ],
+                 "issues":  [
+
+                            ]
+             },
+    "meta":  {
+                 "request_id":  "01KT09XFVKCJPTH4WHG56DDPYQ",
+                 "duration_ms":  84.6,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/email/health/cloudflare.com?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:07.976Z",
+    "request_id":  "01KT09XFVKCJPTH4WHG56DDPYQ"
+}

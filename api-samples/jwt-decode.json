@@ -1,0 +1,32 @@
+﻿{
+    "success":  true,
+    "data":  {
+                 "header":  {
+                                "alg":  "HS256",
+                                "typ":  "JWT"
+                            },
+                 "payload":  {
+                                 "sub":  "1234567890",
+                                 "name":  "John Doe",
+                                 "iat":  1516239022
+                             },
+                 "signature":  "SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+                 "note":  "Signature was not verified."
+             },
+    "meta":  {
+                 "request_id":  "01KT09YBMA0SH70GFECCBX862J",
+                 "duration_ms":  12.6,
+                 "auth":  {
+                              "authenticated":  true,
+                              "tier":  "internal",
+                              "key_label":  "Connor Merk — Alloy API",
+                              "key_prefix":  "l49peiw1"
+                          }
+             },
+    "links":  {
+                  "self":  "/api/jwt/decode?pretty=true",
+                  "docs":  "https://api.connormerk.dev/docs/reference"
+              },
+    "timestamp":  "2026-06-01T00:39:36.343Z",
+    "request_id":  "01KT09YBMA0SH70GFECCBX862J"
+}
